@@ -13,6 +13,7 @@
     "parcel": "^2.2.1"
   },
   "dependencies": {
-    "web3": "^1.7.0"
+    "web3": "^1.7.0",
+    "@openzeppelin/contracts": "^4.0.0"
   }
 }

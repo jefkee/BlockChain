@@ -81,6 +81,7 @@ contract Tickets {
     function returnTicket(uint256 _index) external {
       require(_index < TOTAL_TICKETS && _index >= 0);
       require(tickets[_index].owner == msg.sender);
+
       tickets[_index].owner = owner;
     }
 
