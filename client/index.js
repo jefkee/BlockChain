@@ -9,7 +9,7 @@ const createElementFromString = (string) => {
   return el.firstChild;
 };
 
-const CONTRACT_ADDRESS = "0x341eaAdA26C4D220B6a908F3Bc1882b336aCa1e9";
+const CONTRACT_ADDRESS = "0xbb008D4BFe06593EFa470Bbc4C09FA5F7aB0F94D";
 const CONTRACT_ABI = configuration.abi;
 
 const web3 = new Web3(Web3.givenProvider || 'http://127.0.0.1:7545');
